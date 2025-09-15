@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.container{
+    width: 100vw;
+    height:100vh;
+    background-color:#02012C;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+   
+}
+.heading{
+    color: #fff;
+    font-size: 52px;
+    line-height: 120px;
+    letter-spacing: 0;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Bricolage Grotesque';
+   
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 1158px; */
+    /* flex-direction: column; */
+}
+/* .logo{
+    margin-top: 30px;
+} */
