@@ -20,18 +20,21 @@
     line-height: 120px;
     letter-spacing: 0;
     font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     font-family: 'Bricolage Grotesque';
+    margin: 0% 0%;
+    padding: 0% 0% !important;
+
    
 }
 .main{
-    /* display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row; */
+    flex-direction: column; 
     
 }
 .search-container{
@@ -85,11 +88,57 @@
 }
 .content-container{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
-    width: 1216px; 
-    height: 400px;
+    gap: 5%;
+    width: 75vw; 
+    height: 63vh;
     border: 2px solid  red;
     margin-top: 30px;
 }
+.content-container > div{
+ border: solid red 1px;
+}
+/* .left-content{
+    background-image: url(assets/Desktop\ -\ Hero\ bg.svg);
+} */
+ #image-forweather{
+    background-image: url('./assets/Desktop\ -\ Hero\ bg.svg');
+    background-size: cover;
+    height: 30%;
+ }
+ .left-content{
+    width: 70%;
+    height: 100%;
+ }
+ .right-content{
+    width: 25%;
+    height: 100%;
+ }
+ .weather-icon{
+    /* padding-bottom: 20px; */
+    margin: 0px;
+    /* height: 100px; */
+    /* width: 100px; */
+ }
+ .weather-today
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .sub{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-right: 5px;
+    }
+    .sub h1{
+        color: #fff;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0px;
+        font-family: 'DM Sans';
+    }
