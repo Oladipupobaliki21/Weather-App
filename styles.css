@@ -17,7 +17,7 @@
 .heading{
     color: #fff;
     font-size: 52px;
-    line-height: 120px;
+    line-height: 100px;
     letter-spacing: 0;
     font-weight: bold;
     margin-top: 10px;
@@ -90,15 +90,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5%;
+    gap: 3%;
     width: 75vw; 
     height: 63vh;
-    border: 2px solid  red;
+    /* border: 2px solid  red; */
     margin-top: 30px;
 }
-.content-container > div{
- border: solid red 1px;
-}
+/* .content-container > div{
+ /* border: solid red 1px; */
+
 /* .left-content{
     background-image: url(assets/Desktop\ -\ Hero\ bg.svg);
 } */
@@ -106,11 +106,11 @@
      background-image: url('./assets/Desktop\ -\ Hero\ bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30%;
-    width: 100%;
+    height: 10rem;
+    width: 52rem;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    /* padding: 10px; */
+    padding: 20px;
  }
  .left-content{
     width: 70%;
@@ -128,11 +128,11 @@
   }
   .weather-today
     {
-        height: 30%;
+        height: 35%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* padding-top: 20px; */
+        padding-top: 20px;
     }
     .sub{
         display: flex;
@@ -193,4 +193,41 @@
     }
     .daily-forecast-head{
         margin-top:10px;
+        color: white;
     }
+    .right-content{
+        background-color:#3C3B5E ;
+        border-radius: 15px;
+    }
+    .right-content h2{
+        color: #fff;
+       
+    }
+    .hourly-forecast-head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .right-top{
+        margin: 13px;
+    }
+     .hourly-content{
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #302F4A;
+        margin: 5px;
+    
+    }
+    .hourly-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 13px;
+    
+    }
+    .details{
+    display: flex;
+   align-items: center;
+   gap: 5px;
+}
